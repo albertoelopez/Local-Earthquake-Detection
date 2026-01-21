@@ -14,6 +14,7 @@ env/
 kaggle.json
 *.key
 *.pem
+chat_history.txt
 
 # Kaggle MCP credentials
 kaggle-mcp/.env
