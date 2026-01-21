@@ -1,0 +1,58 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define WIFI_SSID "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
+
+#define MQTT_SERVER "broker.hivemq.com"
+#define MQTT_PORT 1883
+#define MQTT_USER ""
+#define MQTT_PASSWORD ""
+#define MQTT_TOPIC_ALERT "earthquake/alert"
+#define MQTT_TOPIC_DATA "earthquake/data"
+#define MQTT_TOPIC_STATUS "earthquake/status"
+
+#define MPU6050_I2C_ADDRESS 0x68
+#define I2C_SDA_PIN 21
+#define I2C_SCL_PIN 22
+#define INTERRUPT_PIN 32
+
+#define BUZZER_PIN 25
+#define RED_LED_PIN 26
+#define YELLOW_LED_PIN 27
+#define GREEN_LED_PIN 14
+
+#define LCD_I2C_ADDRESS 0x27
+#define LCD_COLS 16
+#define LCD_ROWS 2
+
+#define SAMPLE_RATE_HZ 100
+#define STA_WINDOW_SEC 1.0f
+#define LTA_WINDOW_SEC 30.0f
+#define STA_LTA_TRIGGER_THRESHOLD 5.0f
+#define STA_LTA_DETRIGGER_THRESHOLD 2.0f
+
+#define PGA_THRESHOLD_LIGHT 0.03f
+#define PGA_THRESHOLD_MODERATE 0.08f
+#define PGA_THRESHOLD_STRONG 0.15f
+#define PGA_THRESHOLD_SEVERE 0.25f
+#define PGA_THRESHOLD_VIOLENT 0.45f
+
+#define CAV_THRESHOLD 0.16f
+
+#define MIN_EVENT_DURATION_SEC 5.0f
+
+#define FILTER_LOW_CUTOFF_HZ 0.1f
+#define FILTER_HIGH_CUTOFF_HZ 25.0f
+#define FILTER_ORDER 2
+
+#define DEVICE_LATITUDE 0.0f
+#define DEVICE_LONGITUDE 0.0f
+
+#define PUSHOVER_TOKEN ""
+#define PUSHOVER_USER ""
+#define TELEGRAM_BOT_TOKEN ""
+#define TELEGRAM_CHAT_ID ""
+#define DISCORD_WEBHOOK_URL ""
+
+#endif

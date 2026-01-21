@@ -1,0 +1,10 @@
+.env
+.venv
+venv
+.ipynb_checkpoints
+__pycache__
+create_env.py
+datasets/
+
+# Python packaging build artifacts
+*.egg-info/

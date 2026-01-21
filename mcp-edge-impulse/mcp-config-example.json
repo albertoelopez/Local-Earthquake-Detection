@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "edge-impulse": {
+      "command": "python",
+      "args": ["/home/darthvader/AI_Projects/earthquake_alert/mcp-edge-impulse/server.py"],
+      "env": {
+        "EDGE_IMPULSE_API_KEY": "ei_your_api_key_here"
+      }
+    }
+  }
+}
